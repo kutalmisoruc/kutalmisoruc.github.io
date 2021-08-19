@@ -1,0 +1,44 @@
+#nav{
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    overflow: hidden;
+    height: 110px;
+}
+.social .fab{
+    font-size: 1em;
+    padding: 0.5em;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+#home img{
+    max-width: 50%;
+    height: auto;
+    border-radius: 100%;
+}
+#home .name h2{
+    font-size: 1.25em;
+    letter-spacing: 3px;
+}
+#home .name p{
+    font-size: 0.75em;
+}
+#main .items{
+    flex-direction: column;
+}
+#main .items .item{
+    width: 100%;
+    margin: 0.5em 0em;
+}
+#contact{
+    
+    padding: 0em 0em; 
+}
+#contact ul{
+    display: flex;
+    padding: 3em 0;
+ 
+}
+#contact ul li{
+    padding: 0 0.5em;
+}
